@@ -115,8 +115,8 @@ function ScreenTwo(props) {
   return (
     <div style={{ height: "1000px", marginTop: "100px" }}>
       <div className="game-play">
-        <div className=" col-sm-12 col-md-12 col-lg-8" style={BOX_DESIGN}>
-          <div className="col-lg-12 col-sm-12 col-md-12">
+        <div className=" box-design col-xs-12 col-sm-12 col-md-12 col-lg-8">
+          <div className="col-xs-12col-lg-12 col-sm-12 col-md-12">
             <Block
               labelName="Player 01"
               boxColor="#DCF6E4"

@@ -32,7 +32,7 @@ export const LABEL_TEXT = {
 };
 
 export const INPUT_TEXT = {
-  font: "normal normal normal 28px/42px Poppins",
+  font: "normal normal normal 18px/28px Poppins",
   letterSpacing: "0px",
   color: " #424242",
   opacity: "1",
