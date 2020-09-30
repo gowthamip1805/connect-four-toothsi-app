@@ -197,14 +197,9 @@ function ScreenTwo(props) {
   }) {
     return (
       <div
-        className="input-group"
+        className="input-group block"
         style={{
-          border: "1px solid #70707026",
-          borderRadius: "15px",
-          height: "110px",
-          background: `${boxColor} 0% 0% no-repeat padding-box`,
-          opacity: "1",
-          margin: "20px 10px"
+          background: `${boxColor} 0% 0% no-repeat padding-box`
         }}
       >
         <div

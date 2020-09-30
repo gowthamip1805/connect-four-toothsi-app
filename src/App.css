@@ -142,6 +142,13 @@ table {
   height: 39px;
 }
 
+.block {
+  border: 1px solid #70707026;
+  border-radius: 15px;
+  height: 110px;
+  opacity: 1;
+  margin: 20px 10px;
+}
 @media only screen and (max-width: 600px) {
   .tile {
     height: 50px;
@@ -152,5 +159,12 @@ table {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+  }
+  .block {
+    border: 1px solid #70707026;
+    border-radius: 15px;
+    height: 200px;
+    opacity: 1;
+    margin: 20px 10px;
   }
 }

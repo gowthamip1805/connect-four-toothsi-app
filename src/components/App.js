@@ -9,6 +9,10 @@ import App1 from "../App";
 function App() {
   return (
     <div className="container-fluid" style={{ padding: "5%" }}>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+      ></meta>
       <Switch>
         <Route path="/" exact component={ScreenOne} />
         <Route path="/2" component={ScreenTwo} />
